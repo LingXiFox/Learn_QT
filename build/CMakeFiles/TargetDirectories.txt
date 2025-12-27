@@ -1,0 +1,9 @@
+/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles/Learn_QT.dir
+/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles/edit_cache.dir
+/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles/rebuild_cache.dir
+/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles/list_install_components.dir
+/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles/install.dir
+/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles/install/local.dir
+/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles/install/strip.dir
+/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles/Learn_QT_autogen_timestamp_deps.dir
+/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles/Learn_QT_autogen.dir

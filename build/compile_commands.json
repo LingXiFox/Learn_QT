@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/Learn_QT_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/Learn_QT.dir/Learn_QT_autogen/mocs_compilation.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/Learn_QT_autogen/mocs_compilation.cpp\"",
+  "file": "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/Learn_QT_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Learn_QT.dir/Learn_QT_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/Learn_QT_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/Learn_QT.dir/main.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/main.cpp\"",
+  "file": "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/main.cpp",
+  "output": "CMakeFiles/Learn_QT.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/Learn_QT_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/Learn_QT.dir/mainwindow.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/mainwindow.cpp\"",
+  "file": "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/mainwindow.cpp",
+  "output": "CMakeFiles/Learn_QT.dir/mainwindow.cpp.o"
+}
+]
