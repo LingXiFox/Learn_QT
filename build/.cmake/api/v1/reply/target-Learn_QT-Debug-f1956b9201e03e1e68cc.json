@@ -326,11 +326,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "Learn_QT_autogen::@6890427a1f51a3e7e1df"
+			"id" : "Learn_QT_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "Learn_QT_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "Learn_QT_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Learn_QT::@6890427a1f51a3e7e1df",
@@ -437,10 +437,6 @@
 	"orderDependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "Learn_QT_autogen::@6890427a1f51a3e7e1df"
-		},
-		{
 			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -448,6 +444,10 @@
 		},
 		{
 			"id" : "Learn_QT_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "Learn_QT_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 

@@ -11,13 +11,10 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QLineEdit>
-#include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
-#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTabWidget>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -28,11 +25,11 @@ class Ui_MainWindow
 public:
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout;
-    QLineEdit *lineEditInput;
-    QListWidget *listWidget;
-    QHBoxLayout *horizontalLayout;
-    QPushButton *addButton;
-    QPushButton *deleteButton;
+    QTabWidget *tabWidget;
+    QWidget *TabBase64;
+    QWidget *TabHaxi;
+    QWidget *TabNcm;
+    QWidget *TabSet;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -45,30 +42,22 @@ public:
         centralwidget->setObjectName("centralwidget");
         verticalLayout = new QVBoxLayout(centralwidget);
         verticalLayout->setObjectName("verticalLayout");
-        lineEditInput = new QLineEdit(centralwidget);
-        lineEditInput->setObjectName("lineEditInput");
+        tabWidget = new QTabWidget(centralwidget);
+        tabWidget->setObjectName("tabWidget");
+        TabBase64 = new QWidget();
+        TabBase64->setObjectName("TabBase64");
+        tabWidget->addTab(TabBase64, QString());
+        TabHaxi = new QWidget();
+        TabHaxi->setObjectName("TabHaxi");
+        tabWidget->addTab(TabHaxi, QString());
+        TabNcm = new QWidget();
+        TabNcm->setObjectName("TabNcm");
+        tabWidget->addTab(TabNcm, QString());
+        TabSet = new QWidget();
+        TabSet->setObjectName("TabSet");
+        tabWidget->addTab(TabSet, QString());
 
-        verticalLayout->addWidget(lineEditInput);
-
-        listWidget = new QListWidget(centralwidget);
-        listWidget->setObjectName("listWidget");
-
-        verticalLayout->addWidget(listWidget);
-
-        horizontalLayout = new QHBoxLayout();
-        horizontalLayout->setObjectName("horizontalLayout");
-        addButton = new QPushButton(centralwidget);
-        addButton->setObjectName("addButton");
-
-        horizontalLayout->addWidget(addButton);
-
-        deleteButton = new QPushButton(centralwidget);
-        deleteButton->setObjectName("deleteButton");
-
-        horizontalLayout->addWidget(deleteButton);
-
-
-        verticalLayout->addLayout(horizontalLayout);
+        verticalLayout->addWidget(tabWidget);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -81,15 +70,19 @@ public:
 
         retranslateUi(MainWindow);
 
+        tabWidget->setCurrentIndex(0);
+
+
         QMetaObject::connectSlotsByName(MainWindow);
     } // setupUi
 
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        lineEditInput->setPlaceholderText(QCoreApplication::translate("MainWindow", "Enter text", nullptr));
-        addButton->setText(QCoreApplication::translate("MainWindow", "Add", nullptr));
-        deleteButton->setText(QCoreApplication::translate("MainWindow", "Delete", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(TabBase64), QCoreApplication::translate("MainWindow", "Base64", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(TabHaxi), QCoreApplication::translate("MainWindow", "HaXi", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(TabNcm), QCoreApplication::translate("MainWindow", "NCM", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(TabSet), QCoreApplication::translate("MainWindow", "\350\256\276\347\275\256", nullptr));
     } // retranslateUi
 
 };

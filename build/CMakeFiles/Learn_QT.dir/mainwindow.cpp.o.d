@@ -982,54 +982,29 @@ CMakeFiles/Learn_QT.dir/mainwindow.cpp.o: \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qinputmethod.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qlocale.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qguiapplication_platform.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QMenuBar \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qmenubar.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qmenu.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QStatusBar \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qstatusbar.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QTabWidget \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qlayout.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qgridlayout.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QLineEdit \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qlineedit.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qframe.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextcursor.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextdocument.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qurl.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextformat.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qpen.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextoption.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QListWidget \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qlistwidget.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qlistview.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractitemview.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qabstractitemmodel.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qitemselectionmodel.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qstyleoption.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractspinbox.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qvalidator.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qregularexpression.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qslider.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractslider.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qstyle.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qtabbar.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qrubberband.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QMenuBar \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qmenubar.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qmenu.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QPushButton \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qpushbutton.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractbutton.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QStatusBar \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qstatusbar.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QWidget \
   /Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/Learn_QT_autogen/include/ui_untitled.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QAbstractButton \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QDialog \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qdialog.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QDialogButtonBox \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qlabel.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qframe.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qpicture.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qiodevice.h
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qiodevice.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextdocument.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qurl.h
