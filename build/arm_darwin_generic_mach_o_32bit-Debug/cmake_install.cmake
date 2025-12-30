@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lingxifox/Documents/VSCode/C&C++/Learn_QT
+# Install script for directory: /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,20 +38,20 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/arm_darwin_generic_mach_o_32bit-Debug/Learn_QT.app" USE_SOURCE_PERMISSIONS)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Learn_QT.app/Contents/MacOS/Learn_QT" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Learn_QT.app/Contents/MacOS/Learn_QT")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/ToolsCpp.app" USE_SOURCE_PERMISSIONS)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./ToolsCpp.app/Contents/MacOS/ToolsCpp" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./ToolsCpp.app/Contents/MacOS/ToolsCpp")
     execute_process(COMMAND /usr/bin/install_name_tool
       -delete_rpath "/opt/homebrew/lib"
       -add_rpath "@executable_path/../Frameworks"
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Learn_QT.app/Contents/MacOS/Learn_QT")
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./ToolsCpp.app/Contents/MacOS/ToolsCpp")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/arm_darwin_generic_mach_o_32bit-Debug/install_local_manifest.txt"
+  file(WRITE "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -67,6 +67,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/arm_darwin_generic_mach_o_32bit-Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

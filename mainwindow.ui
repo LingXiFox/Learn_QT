@@ -24,6 +24,72 @@
        <attribute name="title">
         <string>Base64</string>
        </attribute>
+       <widget class="QPushButton" name="ActionButton">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>370</y>
+          <width>131</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>运行</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="ChoiceMode">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Base64编码</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Base64解码</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QTextEdit" name="InputBox">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>341</width>
+          <height>301</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="OutputBox">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>50</y>
+          <width>341</width>
+          <height>301</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>200</y>
+          <width>58</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>——&gt;</string>
+        </property>
+       </widget>
       </widget>
       <widget class="QWidget" name="TabHaxi">
        <attribute name="title">

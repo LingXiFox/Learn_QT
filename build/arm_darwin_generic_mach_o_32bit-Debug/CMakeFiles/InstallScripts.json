@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/arm_darwin_generic_mach_o_32bit-Debug/cmake_install.cmake"
+		"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/4.2.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT"
+CMAKE_SOURCE_DIR = "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/arm_darwin_generic_mach_o_32bit-Debug"
+CMAKE_BINARY_DIR = "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles" "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/arm_darwin_generic_mach_o_32bit-Debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles" "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -158,79 +158,79 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles/VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles/VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Learn_QT
+# Target rules for targets named ToolsCpp
 
 # Build rule for target.
-Learn_QT: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Learn_QT
-.PHONY : Learn_QT
+ToolsCpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ToolsCpp
+.PHONY : ToolsCpp
 
 # fast build rule for target.
-Learn_QT/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/build
-.PHONY : Learn_QT/fast
+ToolsCpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/build
+.PHONY : ToolsCpp/fast
 
 #=============================================================================
-# Target rules for targets named Learn_QT_autogen_timestamp_deps
+# Target rules for targets named ToolsCpp_autogen_timestamp_deps
 
 # Build rule for target.
-Learn_QT_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Learn_QT_autogen_timestamp_deps
-.PHONY : Learn_QT_autogen_timestamp_deps
+ToolsCpp_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ToolsCpp_autogen_timestamp_deps
+.PHONY : ToolsCpp_autogen_timestamp_deps
 
 # fast build rule for target.
-Learn_QT_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/build.make CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/build
-.PHONY : Learn_QT_autogen_timestamp_deps/fast
+ToolsCpp_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/build.make CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/build
+.PHONY : ToolsCpp_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named Learn_QT_autogen
+# Target rules for targets named ToolsCpp_autogen
 
 # Build rule for target.
-Learn_QT_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Learn_QT_autogen
-.PHONY : Learn_QT_autogen
+ToolsCpp_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ToolsCpp_autogen
+.PHONY : ToolsCpp_autogen
 
 # fast build rule for target.
-Learn_QT_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT_autogen.dir/build.make CMakeFiles/Learn_QT_autogen.dir/build
-.PHONY : Learn_QT_autogen/fast
+ToolsCpp_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp_autogen.dir/build.make CMakeFiles/ToolsCpp_autogen.dir/build
+.PHONY : ToolsCpp_autogen/fast
 
-Learn_QT_autogen/mocs_compilation.o: Learn_QT_autogen/mocs_compilation.cpp.o
-.PHONY : Learn_QT_autogen/mocs_compilation.o
+ToolsCpp_autogen/mocs_compilation.o: ToolsCpp_autogen/mocs_compilation.cpp.o
+.PHONY : ToolsCpp_autogen/mocs_compilation.o
 
 # target to build an object file
-Learn_QT_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/Learn_QT_autogen/mocs_compilation.cpp.o
-.PHONY : Learn_QT_autogen/mocs_compilation.cpp.o
+ToolsCpp_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/ToolsCpp_autogen/mocs_compilation.cpp.o
+.PHONY : ToolsCpp_autogen/mocs_compilation.cpp.o
 
-Learn_QT_autogen/mocs_compilation.i: Learn_QT_autogen/mocs_compilation.cpp.i
-.PHONY : Learn_QT_autogen/mocs_compilation.i
+ToolsCpp_autogen/mocs_compilation.i: ToolsCpp_autogen/mocs_compilation.cpp.i
+.PHONY : ToolsCpp_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-Learn_QT_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/Learn_QT_autogen/mocs_compilation.cpp.i
-.PHONY : Learn_QT_autogen/mocs_compilation.cpp.i
+ToolsCpp_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/ToolsCpp_autogen/mocs_compilation.cpp.i
+.PHONY : ToolsCpp_autogen/mocs_compilation.cpp.i
 
-Learn_QT_autogen/mocs_compilation.s: Learn_QT_autogen/mocs_compilation.cpp.s
-.PHONY : Learn_QT_autogen/mocs_compilation.s
+ToolsCpp_autogen/mocs_compilation.s: ToolsCpp_autogen/mocs_compilation.cpp.s
+.PHONY : ToolsCpp_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-Learn_QT_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/Learn_QT_autogen/mocs_compilation.cpp.s
-.PHONY : Learn_QT_autogen/mocs_compilation.cpp.s
+ToolsCpp_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/ToolsCpp_autogen/mocs_compilation.cpp.s
+.PHONY : ToolsCpp_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -238,7 +238,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -246,7 +246,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 mainwindow.o: mainwindow.cpp.o
@@ -254,7 +254,7 @@ mainwindow.o: mainwindow.cpp.o
 
 # target to build an object file
 mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/mainwindow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o
 .PHONY : mainwindow.cpp.o
 
 mainwindow.i: mainwindow.cpp.i
@@ -262,7 +262,7 @@ mainwindow.i: mainwindow.cpp.i
 
 # target to preprocess a source file
 mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/mainwindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/mainwindow.cpp.i
 .PHONY : mainwindow.cpp.i
 
 mainwindow.s: mainwindow.cpp.s
@@ -270,7 +270,7 @@ mainwindow.s: mainwindow.cpp.s
 
 # target to generate assembly for a file
 mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/mainwindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
 # Help Target
@@ -285,12 +285,12 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... Learn_QT_autogen"
-	@echo "... Learn_QT_autogen_timestamp_deps"
-	@echo "... Learn_QT"
-	@echo "... Learn_QT_autogen/mocs_compilation.o"
-	@echo "... Learn_QT_autogen/mocs_compilation.i"
-	@echo "... Learn_QT_autogen/mocs_compilation.s"
+	@echo "... ToolsCpp_autogen"
+	@echo "... ToolsCpp_autogen_timestamp_deps"
+	@echo "... ToolsCpp"
+	@echo "... ToolsCpp_autogen/mocs_compilation.o"
+	@echo "... ToolsCpp_autogen/mocs_compilation.i"
+	@echo "... ToolsCpp_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -308,7 +308,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles/VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles/VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

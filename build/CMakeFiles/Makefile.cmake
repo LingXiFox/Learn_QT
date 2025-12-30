@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/CMakeLists.txt"
-  ".qt/info_plist/Learn_QT/Info.plist"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/CMakeLists.txt"
+  ".qt/info_plist/ToolsCpp/Info.plist"
   "CMakeFiles/4.2.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.1/CMakeSystem.cmake"
   "CMakeFiles/VerifyGlobs.cmake"
@@ -326,19 +326,19 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  ".qt/info_plist/Learn_QT/Info.plist"
-  "CMakeFiles/Learn_QT_autogen.dir/AutogenInfo.json"
+  ".qt/info_plist/ToolsCpp/Info.plist"
+  "CMakeFiles/ToolsCpp_autogen.dir/AutogenInfo.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
-  "Learn_QT.app/Contents/MacOS"
-  "Learn_QT.app/Contents/Info.plist"
-  "Learn_QT.app/Contents/Info.plist"
+  "ToolsCpp.app/Contents/MacOS"
+  "ToolsCpp.app/Contents/Info.plist"
+  "ToolsCpp.app/Contents/Info.plist"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Learn_QT.dir/DependInfo.cmake"
-  "CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/DependInfo.cmake"
-  "CMakeFiles/Learn_QT_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/ToolsCpp.dir/DependInfo.cmake"
+  "CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "CMakeFiles/ToolsCpp_autogen.dir/DependInfo.cmake"
   )

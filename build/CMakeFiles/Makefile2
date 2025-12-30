@@ -54,20 +54,20 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT"
+CMAKE_SOURCE_DIR = "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build"
+CMAKE_BINARY_DIR = "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Learn_QT.dir/all
+all: CMakeFiles/ToolsCpp.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/Learn_QT.dir/codegen
+codegen: CMakeFiles/ToolsCpp.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,108 +75,108 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Learn_QT.dir/clean
-clean: CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/clean
-clean: CMakeFiles/Learn_QT_autogen.dir/clean
+clean: CMakeFiles/ToolsCpp.dir/clean
+clean: CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/ToolsCpp_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Learn_QT.dir
+# Target rules for target CMakeFiles/ToolsCpp.dir
 
 # All Build rule for target.
-CMakeFiles/Learn_QT.dir/all: CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/all
-CMakeFiles/Learn_QT.dir/all: CMakeFiles/Learn_QT_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target Learn_QT"
-.PHONY : CMakeFiles/Learn_QT.dir/all
+CMakeFiles/ToolsCpp.dir/all: CMakeFiles/ToolsCpp_autogen.dir/all
+CMakeFiles/ToolsCpp.dir/all: CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" --progress-num=1,2,3,4,5 "Built target ToolsCpp"
+.PHONY : CMakeFiles/ToolsCpp.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Learn_QT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Learn_QT.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" 0
-.PHONY : CMakeFiles/Learn_QT.dir/rule
+CMakeFiles/ToolsCpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ToolsCpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" 0
+.PHONY : CMakeFiles/ToolsCpp.dir/rule
 
 # Convenience name for target.
-Learn_QT: CMakeFiles/Learn_QT.dir/rule
-.PHONY : Learn_QT
+ToolsCpp: CMakeFiles/ToolsCpp.dir/rule
+.PHONY : ToolsCpp
 
 # codegen rule for target.
-CMakeFiles/Learn_QT.dir/codegen: CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/all
-CMakeFiles/Learn_QT.dir/codegen: CMakeFiles/Learn_QT_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" --progress-num=1,2,3,4,5 "Finished codegen for target Learn_QT"
-.PHONY : CMakeFiles/Learn_QT.dir/codegen
+CMakeFiles/ToolsCpp.dir/codegen: CMakeFiles/ToolsCpp_autogen.dir/all
+CMakeFiles/ToolsCpp.dir/codegen: CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" --progress-num=1,2,3,4,5 "Finished codegen for target ToolsCpp"
+.PHONY : CMakeFiles/ToolsCpp.dir/codegen
 
 # clean rule for target.
-CMakeFiles/Learn_QT.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT.dir/build.make CMakeFiles/Learn_QT.dir/clean
-.PHONY : CMakeFiles/Learn_QT.dir/clean
+CMakeFiles/ToolsCpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/clean
+.PHONY : CMakeFiles/ToolsCpp.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Learn_QT_autogen_timestamp_deps.dir
+# Target rules for target CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/build.make CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/build.make CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" --progress-num= "Built target Learn_QT_autogen_timestamp_deps"
-.PHONY : CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/all
+CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/build.make CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/build.make CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" --progress-num= "Built target ToolsCpp_autogen_timestamp_deps"
+.PHONY : CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" 0
-.PHONY : CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/rule
+CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" 0
+.PHONY : CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
-Learn_QT_autogen_timestamp_deps: CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/rule
-.PHONY : Learn_QT_autogen_timestamp_deps
+ToolsCpp_autogen_timestamp_deps: CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/rule
+.PHONY : ToolsCpp_autogen_timestamp_deps
 
 # codegen rule for target.
-CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/build.make CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" --progress-num= "Finished codegen for target Learn_QT_autogen_timestamp_deps"
-.PHONY : CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/codegen
+CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/build.make CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" --progress-num= "Finished codegen for target ToolsCpp_autogen_timestamp_deps"
+.PHONY : CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/codegen
 
 # clean rule for target.
-CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/build.make CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/clean
-.PHONY : CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/clean
+CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/build.make CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Learn_QT_autogen.dir
+# Target rules for target CMakeFiles/ToolsCpp_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/Learn_QT_autogen.dir/all: CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT_autogen.dir/build.make CMakeFiles/Learn_QT_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT_autogen.dir/build.make CMakeFiles/Learn_QT_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" --progress-num=6 "Built target Learn_QT_autogen"
-.PHONY : CMakeFiles/Learn_QT_autogen.dir/all
+CMakeFiles/ToolsCpp_autogen.dir/all: CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp_autogen.dir/build.make CMakeFiles/ToolsCpp_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp_autogen.dir/build.make CMakeFiles/ToolsCpp_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" --progress-num=6 "Built target ToolsCpp_autogen"
+.PHONY : CMakeFiles/ToolsCpp_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Learn_QT_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Learn_QT_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" 0
-.PHONY : CMakeFiles/Learn_QT_autogen.dir/rule
+CMakeFiles/ToolsCpp_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ToolsCpp_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" 0
+.PHONY : CMakeFiles/ToolsCpp_autogen.dir/rule
 
 # Convenience name for target.
-Learn_QT_autogen: CMakeFiles/Learn_QT_autogen.dir/rule
-.PHONY : Learn_QT_autogen
+ToolsCpp_autogen: CMakeFiles/ToolsCpp_autogen.dir/rule
+.PHONY : ToolsCpp_autogen
 
 # codegen rule for target.
-CMakeFiles/Learn_QT_autogen.dir/codegen: CMakeFiles/Learn_QT_autogen_timestamp_deps.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT_autogen.dir/build.make CMakeFiles/Learn_QT_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles" --progress-num=6 "Finished codegen for target Learn_QT_autogen"
-.PHONY : CMakeFiles/Learn_QT_autogen.dir/codegen
+CMakeFiles/ToolsCpp_autogen.dir/codegen: CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp_autogen.dir/build.make CMakeFiles/ToolsCpp_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" --progress-num=6 "Finished codegen for target ToolsCpp_autogen"
+.PHONY : CMakeFiles/ToolsCpp_autogen.dir/codegen
 
 # clean rule for target.
-CMakeFiles/Learn_QT_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Learn_QT_autogen.dir/build.make CMakeFiles/Learn_QT_autogen.dir/clean
-.PHONY : CMakeFiles/Learn_QT_autogen.dir/clean
+CMakeFiles/ToolsCpp_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp_autogen.dir/build.make CMakeFiles/ToolsCpp_autogen.dir/clean
+.PHONY : CMakeFiles/ToolsCpp_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
@@ -185,7 +185,7 @@ CMakeFiles/Learn_QT_autogen.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P "/Users/lingxifox/Documents/VSCode/C&C++/Learn_QT/build/CMakeFiles/VerifyGlobs.cmake"
+	$(CMAKE_COMMAND) -P "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles/VerifyGlobs.cmake"
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
