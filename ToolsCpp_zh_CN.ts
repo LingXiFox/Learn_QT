@@ -1,3 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_CN"></TS>
+<TS version="2.1" language="zh_CN">
+<context>
+    <name>MainWindow</name>
+    <message>
+        <source>ToolsCpp</source>
+        <translation>ToolsCpp</translation>
+    </message>
+    <message>
+        <source>Base64</source>
+        <translation>Base64</translation>
+    </message>
+    <message>
+        <source>运行</source>
+        <translation>运行</translation>
+    </message>
+    <message>
+        <source>Base64编码</source>
+        <translation>Base64编码</translation>
+    </message>
+    <message>
+        <source>Base64解码</source>
+        <translation>Base64解码</translation>
+    </message>
+    <message>
+        <source>——&gt;</source>
+        <translation>——&gt;</translation>
+    </message>
+    <message>
+        <source>HaXi</source>
+        <translation>HaXi</translation>
+    </message>
+    <message>
+        <source>SHA256</source>
+        <translation>SHA256</translation>
+    </message>
+    <message>
+        <source>MD5(过时的)</source>
+        <translation>MD5(过时的)</translation>
+    </message>
+    <message>
+        <source>FNV1A64</source>
+        <translation>FNV1A64</translation>
+    </message>
+    <message>
+        <source>NCM</source>
+        <translation>NCM</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>语言</translation>
+    </message>
+    <message>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <source>Open</source>
+        <translation>打开</translation>
+    </message>
+    <message>
+        <source>Exit</source>
+        <translation>退出</translation>
+    </message>
+    <message>
+        <source>Chinese</source>
+        <translation>中文</translation>
+    </message>
+    <message>
+        <source>English</source>
+        <translation>英文</translation>
+    </message>
+    <message>
+        <source>Japanese</source>
+        <translation>日文</translation>
+    </message>
+    <message>
+        <source>Unknown error</source>
+        <translation>未知错误</translation>
+    </message>
+</context>
+</TS>

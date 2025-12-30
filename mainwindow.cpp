@@ -51,7 +51,6 @@ MainWindow::MainWindow(QWidget *parent)
 
     //Haxi启动信号
     connect(ui->ActionButton_Haxi, &QPushButton::clicked, this, [this](){
-        std::string data;
         QString CurrentHaxiMode = ui->ChoiceMode_Haxi->currentText();
         std::string Current_Haxi_Mode = CurrentHaxiMode.toStdString();
         QString CurrentHaxiSalt = ui->ChoiceSalt_Haxi->currentText();
@@ -66,7 +65,7 @@ MainWindow::MainWindow(QWidget *parent)
             return;
         }
         std::string salt_hex;
-        std::string digest = haxi::hash_with_new_salt_hex(data, t, Current_Haxi_Salt_T, &salt_hex);
+        std::string digest = haxi::hash_with_new_salt_hex(InputName_Haxi, t, Current_Haxi_Salt_T, &salt_hex);
         std::string result = haxi::pack_result(t, salt_hex, digest);
         QString result_T = QString::fromUtf8(result.c_str());
         ui->OutputBox_Haxi->setPlainText(result_T);
