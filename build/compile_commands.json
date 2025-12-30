@@ -1,20 +1,32 @@
 [
 {
   "directory": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build",
-  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/ToolsCpp.dir/ToolsCpp_autogen/mocs_compilation.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/mocs_compilation.cpp\"",
+  "command": "/usr/bin/clang++ -DHAXI_USE_COMMONCRYPTO=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/ToolsCpp.dir/ToolsCpp_autogen/mocs_compilation.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/mocs_compilation.cpp\"",
   "file": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/ToolsCpp.dir/ToolsCpp_autogen/mocs_compilation.cpp.o"
 },
 {
   "directory": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build",
-  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/ToolsCpp.dir/main.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/main.cpp\"",
+  "command": "/usr/bin/clang++ -DHAXI_USE_COMMONCRYPTO=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/ToolsCpp.dir/main.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/main.cpp\"",
   "file": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/main.cpp",
   "output": "CMakeFiles/ToolsCpp.dir/main.cpp.o"
 },
 {
   "directory": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build",
-  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp\"",
+  "command": "/usr/bin/clang++ -DHAXI_USE_COMMONCRYPTO=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp\"",
   "file": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp",
   "output": "CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o"
+},
+{
+  "directory": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build",
+  "command": "/usr/bin/clang++ -DHAXI_USE_COMMONCRYPTO=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/ToolsCpp.dir/base64.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.cpp\"",
+  "file": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.cpp",
+  "output": "CMakeFiles/ToolsCpp.dir/base64.cpp.o"
+},
+{
+  "directory": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build",
+  "command": "/usr/bin/clang++ -DHAXI_USE_COMMONCRYPTO=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/ToolsCpp.dir/haxi.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp\"",
+  "file": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp",
+  "output": "CMakeFiles/ToolsCpp.dir/haxi.cpp.o"
 }
 ]

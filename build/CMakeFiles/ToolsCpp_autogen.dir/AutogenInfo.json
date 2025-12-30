@@ -457,6 +457,18 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.h",
+			"MU",
+			"EWIEGA46WW/moc_base64.cpp",
+			null
+		],
+		[
+			"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.h",
+			"MU",
+			"EWIEGA46WW/moc_haxi.cpp",
+			null
+		],
+		[
 			"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -466,7 +478,13 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"HAXI_USE_COMMONCRYPTO=1",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_WIDGETS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -523,6 +541,16 @@
 	"SETTINGS_FILE" : "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles/ToolsCpp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp",
+			"MU",
+			null
+		],
 		[
 			"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/main.cpp",
 			"MU",

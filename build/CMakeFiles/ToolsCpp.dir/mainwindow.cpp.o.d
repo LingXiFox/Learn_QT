@@ -983,6 +983,7 @@ CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o: \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include/./ui_mainwindow.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QVariant \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/QAction \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qcoreapplication.h \
@@ -1040,8 +1041,13 @@ CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o: \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QWidget \
+  /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.h \
+  /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QTableWidget \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qtablewidget.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qtableview.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractitemview.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qitemselectionmodel.h
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qitemselectionmodel.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/QStandardItemModel \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qstandarditemmodel.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/QStandardItem

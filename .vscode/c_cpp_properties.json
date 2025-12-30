@@ -4,7 +4,8 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/opt/homebrew/Cellar/qt/6.9.3/include/**"
+                "/opt/homebrew/Cellar/qt/6.9.3/include/**",
+                "/Users/lingxifox/Documents/VSCode/C&C++/openssl-3.6.0/**"
             ],
             "defines": [],
             "cStandard": "c17",

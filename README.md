@@ -1,45 +1,53 @@
-# Learn_QT
+# ToolsCpp
 
-一个用于学习 Qt Widgets 的小型示例应用，提供文本项的添加、展示与删除（删除前有确认对话框）。
+一个基于 Qt Widgets 的小型工具集合，目前包含 Base64 编解码与 Haxi 哈希（支持盐值）。
 
-## 功能
+## 功能介绍
 
-- 输入文本并添加到列表
-- 选中列表项后删除，删除前弹出确认对话框
+- Base64 编码与解码
+- Haxi 哈希：SHA256 与 FNV1A64（可选启用 MD5）
 - 基于 Qt Widgets + CMake 构建
-- 预置 Qt 翻译文件示例 `Learn_QT_yue_CN.ts`
+- 预置 Qt 翻译文件示例 `ToolsCpp_zh_CN.ts`
 
 ## 环境要求
 
 - CMake 3.16+
 - Qt 5 或 Qt 6（Widgets、LinguistTools）
 - C++17 编译器
+- OpenSSL（非 Apple 平台需要）
 
-## 构建与运行
+## 编译步骤
 
 ```bash
 cmake -S . -B build
 cmake --build build
 ```
 
-运行：
+## 使用说明
+
+- Base64：输入文本，选择“Base64编码/解码”，点击按钮输出结果
+- Haxi：输入文本，选择哈希类型与盐长度，点击按钮输出结果
+- 如需启用 MD5，需要在编译时定义 `HAXI_ALLOW_WEAK_HASHES`
+
+## 运行
+
+macOS/Linux：
 
 ```bash
-./build/Learn_QT
+./build/ToolsCpp
 ```
 
-Windows 可执行文件：
+Windows：
 
 ```bash
-.\build\Learn_QT.exe
+.\build\ToolsCpp.exe
 ```
 
 ## 项目结构
 
 - `main.cpp`：应用入口与多语言加载逻辑
-- `mainwindow.ui`：主窗口布局（输入框、列表、按钮）
-- `untitled.ui`：删除确认对话框布局
-- `mainwindow.cpp`：按钮交互与删除确认逻辑
+- `mainwindow.ui`：主窗口布局
+- `mainwindow.cpp`：Base64 与 Haxi 的交互逻辑
 
 ## 许可协议
 

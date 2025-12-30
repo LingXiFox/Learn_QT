@@ -19,6 +19,10 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        base64.cpp
+        base64.h
+        haxi.h
+        haxi.cpp
         ${TS_FILES}
 )
 
@@ -50,6 +54,16 @@ else()
 endif()
 
 target_link_libraries(ToolsCpp PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+
+if(APPLE)
+    target_compile_definitions(ToolsCpp PRIVATE HAXI_USE_COMMONCRYPTO=1)
+else()
+    find_package(OpenSSL)
+    if(OpenSSL_FOUND)
+        target_compile_definitions(ToolsCpp PRIVATE HAXI_USE_OPENSSL=1)
+        target_link_libraries(ToolsCpp PRIVATE OpenSSL::Crypto)
+    endif()
+endif()
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an

@@ -725,9 +725,13 @@ ToolsCpp_autogen/timestamp: \
 	/Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
 	/Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
 	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/CMakeLists.txt \
+	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.cpp \
+	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.h \
 	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles/4.2.1/CMakeCXXCompiler.cmake \
 	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles/4.2.1/CMakeSystem.cmake \
 	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/moc_predefs.h \
+	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp \
+	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.h \
 	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/main.cpp \
 	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp \
 	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.h \
