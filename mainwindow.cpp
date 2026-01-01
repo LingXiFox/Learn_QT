@@ -2,8 +2,10 @@
 #include <string>
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+
 #include "base64.h"
 #include "haxi.h"
+#include "ncm.h"
 
 #include <QWidget>
 #include <QTableWidget>
@@ -18,16 +20,18 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 
     //全局设置
-    ui->OutputBox_Base64->setReadOnly(true);
+    ui->OutputBox_Base64->setReadOnly(true);//设置输出框不可编辑
     ui->OutputBox_Haxi->setReadOnly(true);
     int index = 1;
     QStandardItemModel *model = qobject_cast<QStandardItemModel *>(ui->ChoiceMode_Haxi->model());
     if (model) {
         QStandardItem *item = model->item(index);
         if (item) {
-            item->setEnabled(false);
+            item->setEnabled(false);//禁止选择MD5选项
         }
     }
+    ui->LimeView_ncm->setPlaceholderText("请选择文件目录");
+    ui->LimeView_ncm->setReadOnly(true);
 
     //base64启动信号
     connect(ui->ActionButton_Base64, &QPushButton::clicked, this, [this](){
@@ -70,6 +74,9 @@ MainWindow::MainWindow(QWidget *parent)
         QString result_T = QString::fromUtf8(result.c_str());
         ui->OutputBox_Haxi->setPlainText(result_T);
     });
+
+    //ncm启动信号
+    
 }
 
 MainWindow::~MainWindow()

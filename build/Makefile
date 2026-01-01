@@ -321,6 +321,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+ncm.o: ncm.cpp.o
+.PHONY : ncm.o
+
+# target to build an object file
+ncm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/ncm.cpp.o
+.PHONY : ncm.cpp.o
+
+ncm.i: ncm.cpp.i
+.PHONY : ncm.i
+
+# target to preprocess a source file
+ncm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/ncm.cpp.i
+.PHONY : ncm.cpp.i
+
+ncm.s: ncm.cpp.s
+.PHONY : ncm.s
+
+# target to generate assembly for a file
+ncm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/ncm.cpp.s
+.PHONY : ncm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -351,6 +375,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... ncm.o"
+	@echo "... ncm.i"
+	@echo "... ncm.s"
 .PHONY : help
 
 

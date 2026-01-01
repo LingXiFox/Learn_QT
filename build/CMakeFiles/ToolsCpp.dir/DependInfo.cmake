@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp" "CMakeFiles/ToolsCpp.dir/haxi.cpp.o" "gcc" "CMakeFiles/ToolsCpp.dir/haxi.cpp.o.d"
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/main.cpp" "CMakeFiles/ToolsCpp.dir/main.cpp.o" "gcc" "CMakeFiles/ToolsCpp.dir/main.cpp.o.d"
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp" "CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o.d"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp" "CMakeFiles/ToolsCpp.dir/ncm.cpp.o" "gcc" "CMakeFiles/ToolsCpp.dir/ncm.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

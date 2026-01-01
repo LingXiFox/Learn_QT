@@ -25,6 +25,12 @@
 },
 {
   "directory": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build",
+  "command": "/usr/bin/clang++ -DHAXI_USE_COMMONCRYPTO=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/ToolsCpp.dir/ncm.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp\"",
+  "file": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp",
+  "output": "CMakeFiles/ToolsCpp.dir/ncm.cpp.o"
+},
+{
+  "directory": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build",
   "command": "/usr/bin/clang++ -DHAXI_USE_COMMONCRYPTO=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I\"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include\" -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers -iframework /opt/homebrew/Cellar/qt/6.9.3/lib -isystem /opt/homebrew/Cellar/qt/6.9.3/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/Cellar/qt/6.9.3/include -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers -isystem /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -o CMakeFiles/ToolsCpp.dir/haxi.cpp.o -c \"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp\"",
   "file": "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp",
   "output": "CMakeFiles/ToolsCpp.dir/haxi.cpp.o"

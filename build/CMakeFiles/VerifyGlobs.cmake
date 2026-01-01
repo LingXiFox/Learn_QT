@@ -114,6 +114,7 @@ set(OLD_GLOB
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp"
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/main.cpp"
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -169,6 +170,7 @@ set(OLD_GLOB
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/moc_predefs.h"
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.h"
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.h"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

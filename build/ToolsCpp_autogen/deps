@@ -735,6 +735,8 @@ ToolsCpp_autogen/timestamp: \
 	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/main.cpp \
 	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp \
 	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.h \
+	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp \
+	/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.h \
 	/opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6/Qt6Config.cmake \
 	/opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
 	/opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6/Qt6ConfigVersion.cmake \

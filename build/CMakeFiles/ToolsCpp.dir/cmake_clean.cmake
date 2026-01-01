@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ToolsCpp.dir/main.cpp.o.d"
   "CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o"
   "CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/ToolsCpp.dir/ncm.cpp.o"
+  "CMakeFiles/ToolsCpp.dir/ncm.cpp.o.d"
   "ToolsCpp.app/Contents/MacOS/ToolsCpp"
   "ToolsCpp.pdb"
   "ToolsCpp_autogen/mocs_compilation.cpp"

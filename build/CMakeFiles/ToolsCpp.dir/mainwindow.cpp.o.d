@@ -1019,6 +1019,18 @@ CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o: \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qiodevice.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextdocument.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qurl.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QLineEdit \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qlineedit.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextcursor.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextformat.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qpen.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextoption.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QListWidget \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qlistwidget.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qlistview.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractitemview.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qitemselectionmodel.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QMenuBar \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qmenubar.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qmenu.h \
@@ -1030,11 +1042,6 @@ CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o: \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QTabWidget \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QTextEdit \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qtextedit.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextoption.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextcursor.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qtextformat.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qpen.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qlayout.h \
@@ -1043,11 +1050,28 @@ CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o: \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QWidget \
   /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.h \
   /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.h \
+  /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QTableWidget \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qtablewidget.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qtableview.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qabstractitemview.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qitemselectionmodel.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/QStandardItemModel \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qstandarditemmodel.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/QStandardItem

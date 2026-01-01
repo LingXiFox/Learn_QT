@@ -473,6 +473,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.h",
+			"MU",
+			"EWIEGA46WW/moc_ncm.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -558,6 +564,11 @@
 		],
 		[
 			"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp",
 			"MU",
 			null
 		]

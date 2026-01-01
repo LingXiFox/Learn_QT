@@ -34,7 +34,8 @@
 				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles/4.2.1/CompilerIdCXX/apple-sdk.cpp",
 				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp",
 				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/main.cpp",
-				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp"
+				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp",
+				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp"
 			],
 			"recurse" : true
 		},
@@ -51,7 +52,8 @@
 				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include/ui_mainwindow.h",
 				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/moc_predefs.h",
 				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.h",
-				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.h"
+				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.h",
+				"/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.h"
 			],
 			"recurse" : true
 		},

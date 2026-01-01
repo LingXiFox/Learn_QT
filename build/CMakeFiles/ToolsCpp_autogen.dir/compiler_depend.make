@@ -738,6 +738,8 @@ ToolsCpp_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.
   /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp \
   /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.h \
   /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.ui \
+  /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp \
+  /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6/Qt6Config.cmake \
   /opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
   /opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
@@ -1696,6 +1698,8 @@ ToolsCpp_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.
 
 /opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake:
 
+/opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__node_handle:
 
 /opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6CorePrivate/Qt6CorePrivateConfigVersion.cmake:
@@ -1751,6 +1755,14 @@ ToolsCpp_autogen/timestamp: /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__mutex/mutex.h:
 
 /opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_callable.h:
+
+/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.h:
 
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h:
 
@@ -2286,12 +2298,6 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_class.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/is_callable.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__utility/private_constructor_tag.h:
@@ -2415,8 +2421,6 @@ CMakeFiles/4.2.1/CMakeCXXCompiler.cmake:
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__type_traits/invoke.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__system_error/throw_system_error.h:
-
-/opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6CorePrivate/Qt6CorePrivateVersionlessAliasTargets.cmake:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__system_error/error_condition.h:
 
@@ -3529,6 +3533,8 @@ ToolsCpp_autogen/moc_predefs.h:
 /opt/homebrew/Cellar/qtbase/6.9.3_1/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__fwd/ostream.h:
+
+/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
 

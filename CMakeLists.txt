@@ -21,6 +21,8 @@ set(PROJECT_SOURCES
         mainwindow.ui
         base64.cpp
         base64.h
+        ncm.cpp
+        ncm.h
         haxi.h
         haxi.cpp
         ${TS_FILES}

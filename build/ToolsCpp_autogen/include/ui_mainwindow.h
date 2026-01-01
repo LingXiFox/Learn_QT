@@ -14,6 +14,8 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
+#include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -48,6 +50,10 @@ public:
     QComboBox *ChoiceMode_Haxi;
     QComboBox *ChoiceSalt_Haxi;
     QWidget *TabNcm;
+    QLineEdit *LimeView_ncm;
+    QListWidget *ListShow_ncm;
+    QPushButton *InputButton_ncm;
+    QPushButton *ActionButton_ncm;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -130,6 +136,18 @@ public:
         tabWidget->addTab(TabHaxi, QString());
         TabNcm = new QWidget();
         TabNcm->setObjectName("TabNcm");
+        LimeView_ncm = new QLineEdit(TabNcm);
+        LimeView_ncm->setObjectName("LimeView_ncm");
+        LimeView_ncm->setGeometry(QRect(20, 20, 731, 31));
+        ListShow_ncm = new QListWidget(TabNcm);
+        ListShow_ncm->setObjectName("ListShow_ncm");
+        ListShow_ncm->setGeometry(QRect(20, 70, 731, 311));
+        InputButton_ncm = new QPushButton(TabNcm);
+        InputButton_ncm->setObjectName("InputButton_ncm");
+        InputButton_ncm->setGeometry(QRect(60, 390, 151, 61));
+        ActionButton_ncm = new QPushButton(TabNcm);
+        ActionButton_ncm->setObjectName("ActionButton_ncm");
+        ActionButton_ncm->setGeometry(QRect(230, 390, 151, 61));
         tabWidget->addTab(TabNcm, QString());
 
         verticalLayout->addWidget(tabWidget);
@@ -145,7 +163,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        tabWidget->setCurrentIndex(1);
+        tabWidget->setCurrentIndex(2);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -187,6 +205,9 @@ public:
         ChoiceSalt_Haxi->setItemText(15, QCoreApplication::translate("MainWindow", "16", nullptr));
 
         tabWidget->setTabText(tabWidget->indexOf(TabHaxi), QCoreApplication::translate("MainWindow", "HaXi", nullptr));
+        LimeView_ncm->setText(QString());
+        InputButton_ncm->setText(QCoreApplication::translate("MainWindow", "\345\257\274\345\205\245", nullptr));
+        ActionButton_ncm->setText(QCoreApplication::translate("MainWindow", "\350\277\220\350\241\214", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(TabNcm), QCoreApplication::translate("MainWindow", "NCM", nullptr));
     } // retranslateUi
 
