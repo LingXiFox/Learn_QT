@@ -104,10 +104,17 @@ endif()
 # _directory_contents at /opt/homebrew/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/*.cpp")
 set(OLD_GLOB
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.cpp"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles/4.2.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles/4.2.1/CompilerIdCXX/apple-sdk.cpp"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/EWIEGA46WW/moc_mainwindow.cpp"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/mocs_compilation.cpp"
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles/4.2.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles/4.2.1/CompilerIdCXX/apple-sdk.cpp"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp"
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/main.cpp"
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -158,7 +165,12 @@ endif()
 # _directory_contents at /opt/homebrew/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/*.h")
 set(OLD_GLOB
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.h"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/include/ui_mainwindow.h"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/ToolsCpp_autogen/moc_predefs.h"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.h"
   "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.h"
+  "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

@@ -37,11 +37,21 @@ public:
     QVBoxLayout *verticalLayout;
     QTabWidget *tabWidget;
     QWidget *TabBase64;
-    QPushButton *ActionButton_Base64;
-    QComboBox *ChoiceMode_Base64;
-    QTextEdit *InputBox_Base64;
+    QTabWidget *tabWidget_2;
+    QWidget *Tab_Text;
     QTextEdit *OutputBox_Base64;
+    QTextEdit *InputBox_Base64;
+    QComboBox *ChoiceMode_Base64;
+    QPushButton *ActionButton_Base64;
     QLabel *label;
+    QWidget *Tab_File;
+    QLineEdit *Line_File_Input_Base64;
+    QTextEdit *Show_File_Input_Base64;
+    QTextEdit *Show_File_output_Base64;
+    QLabel *label_3;
+    QLineEdit *Line_File_Output_Base64;
+    QPushButton *Button_File_Input;
+    QPushButton *Button_File_Action_Base64;
     QWidget *TabHaxi;
     QTextEdit *InputBox_Haxi;
     QTextEdit *OutputBox_Haxi;
@@ -54,6 +64,7 @@ public:
     QListWidget *ListShow_ncm;
     QPushButton *InputButton_ncm;
     QPushButton *ActionButton_ncm;
+    QWidget *TabLan;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -76,23 +87,53 @@ public:
         tabWidget->setObjectName("tabWidget");
         TabBase64 = new QWidget();
         TabBase64->setObjectName("TabBase64");
-        ActionButton_Base64 = new QPushButton(TabBase64);
-        ActionButton_Base64->setObjectName("ActionButton_Base64");
-        ActionButton_Base64->setGeometry(QRect(320, 400, 131, 51));
-        ChoiceMode_Base64 = new QComboBox(TabBase64);
+        tabWidget_2 = new QTabWidget(TabBase64);
+        tabWidget_2->setObjectName("tabWidget_2");
+        tabWidget_2->setGeometry(QRect(0, 0, 771, 471));
+        Tab_Text = new QWidget();
+        Tab_Text->setObjectName("Tab_Text");
+        OutputBox_Base64 = new QTextEdit(Tab_Text);
+        OutputBox_Base64->setObjectName("OutputBox_Base64");
+        OutputBox_Base64->setGeometry(QRect(410, 30, 341, 331));
+        InputBox_Base64 = new QTextEdit(Tab_Text);
+        InputBox_Base64->setObjectName("InputBox_Base64");
+        InputBox_Base64->setGeometry(QRect(10, 30, 341, 331));
+        ChoiceMode_Base64 = new QComboBox(Tab_Text);
         ChoiceMode_Base64->addItem(QString());
         ChoiceMode_Base64->addItem(QString());
         ChoiceMode_Base64->setObjectName("ChoiceMode_Base64");
-        ChoiceMode_Base64->setGeometry(QRect(0, 0, 151, 51));
-        InputBox_Base64 = new QTextEdit(TabBase64);
-        InputBox_Base64->setObjectName("InputBox_Base64");
-        InputBox_Base64->setGeometry(QRect(10, 50, 341, 331));
-        OutputBox_Base64 = new QTextEdit(TabBase64);
-        OutputBox_Base64->setObjectName("OutputBox_Base64");
-        OutputBox_Base64->setGeometry(QRect(420, 50, 341, 331));
-        label = new QLabel(TabBase64);
+        ChoiceMode_Base64->setGeometry(QRect(0, -10, 151, 51));
+        ActionButton_Base64 = new QPushButton(Tab_Text);
+        ActionButton_Base64->setObjectName("ActionButton_Base64");
+        ActionButton_Base64->setGeometry(QRect(300, 370, 131, 51));
+        label = new QLabel(Tab_Text);
         label->setObjectName("label");
-        label->setGeometry(QRect(370, 200, 58, 16));
+        label->setGeometry(QRect(360, 180, 58, 16));
+        tabWidget_2->addTab(Tab_Text, QString());
+        Tab_File = new QWidget();
+        Tab_File->setObjectName("Tab_File");
+        Line_File_Input_Base64 = new QLineEdit(Tab_File);
+        Line_File_Input_Base64->setObjectName("Line_File_Input_Base64");
+        Line_File_Input_Base64->setGeometry(QRect(20, 20, 721, 31));
+        Show_File_Input_Base64 = new QTextEdit(Tab_File);
+        Show_File_Input_Base64->setObjectName("Show_File_Input_Base64");
+        Show_File_Input_Base64->setGeometry(QRect(20, 70, 331, 251));
+        Show_File_output_Base64 = new QTextEdit(Tab_File);
+        Show_File_output_Base64->setObjectName("Show_File_output_Base64");
+        Show_File_output_Base64->setGeometry(QRect(410, 70, 331, 251));
+        label_3 = new QLabel(Tab_File);
+        label_3->setObjectName("label_3");
+        label_3->setGeometry(QRect(370, 180, 58, 16));
+        Line_File_Output_Base64 = new QLineEdit(Tab_File);
+        Line_File_Output_Base64->setObjectName("Line_File_Output_Base64");
+        Line_File_Output_Base64->setGeometry(QRect(20, 340, 721, 31));
+        Button_File_Input = new QPushButton(Tab_File);
+        Button_File_Input->setObjectName("Button_File_Input");
+        Button_File_Input->setGeometry(QRect(210, 380, 131, 51));
+        Button_File_Action_Base64 = new QPushButton(Tab_File);
+        Button_File_Action_Base64->setObjectName("Button_File_Action_Base64");
+        Button_File_Action_Base64->setGeometry(QRect(380, 380, 131, 51));
+        tabWidget_2->addTab(Tab_File, QString());
         tabWidget->addTab(TabBase64, QString());
         TabHaxi = new QWidget();
         TabHaxi->setObjectName("TabHaxi");
@@ -149,6 +190,9 @@ public:
         ActionButton_ncm->setObjectName("ActionButton_ncm");
         ActionButton_ncm->setGeometry(QRect(230, 390, 151, 61));
         tabWidget->addTab(TabNcm, QString());
+        TabLan = new QWidget();
+        TabLan->setObjectName("TabLan");
+        tabWidget->addTab(TabLan, QString());
 
         verticalLayout->addWidget(tabWidget);
 
@@ -163,7 +207,8 @@ public:
 
         retranslateUi(MainWindow);
 
-        tabWidget->setCurrentIndex(2);
+        tabWidget->setCurrentIndex(0);
+        tabWidget_2->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -175,11 +220,16 @@ public:
         actionSave->setText(QCoreApplication::translate("MainWindow", "Save", nullptr));
         actionOpen->setText(QCoreApplication::translate("MainWindow", "Open", nullptr));
         actionExit->setText(QCoreApplication::translate("MainWindow", "Exit", nullptr));
-        ActionButton_Base64->setText(QCoreApplication::translate("MainWindow", "\350\277\220\350\241\214", nullptr));
         ChoiceMode_Base64->setItemText(0, QCoreApplication::translate("MainWindow", "Base64\347\274\226\347\240\201", nullptr));
         ChoiceMode_Base64->setItemText(1, QCoreApplication::translate("MainWindow", "Base64\350\247\243\347\240\201", nullptr));
 
+        ActionButton_Base64->setText(QCoreApplication::translate("MainWindow", "\350\277\220\350\241\214", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "\342\200\224\342\200\224>", nullptr));
+        tabWidget_2->setTabText(tabWidget_2->indexOf(Tab_Text), QCoreApplication::translate("MainWindow", "\346\226\207\346\234\254\350\276\223\345\205\245", nullptr));
+        label_3->setText(QCoreApplication::translate("MainWindow", "\342\200\224\342\200\224>", nullptr));
+        Button_File_Input->setText(QCoreApplication::translate("MainWindow", "\345\257\274\345\205\245", nullptr));
+        Button_File_Action_Base64->setText(QCoreApplication::translate("MainWindow", "\350\277\220\350\241\214", nullptr));
+        tabWidget_2->setTabText(tabWidget_2->indexOf(Tab_File), QCoreApplication::translate("MainWindow", "\346\226\207\344\273\266\350\276\223\345\205\245", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(TabBase64), QCoreApplication::translate("MainWindow", "Base64", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "\342\200\224\342\200\224>", nullptr));
         ActionButton_Haxi->setText(QCoreApplication::translate("MainWindow", "\350\277\220\350\241\214", nullptr));
@@ -209,6 +259,7 @@ public:
         InputButton_ncm->setText(QCoreApplication::translate("MainWindow", "\345\257\274\345\205\245", nullptr));
         ActionButton_ncm->setText(QCoreApplication::translate("MainWindow", "\350\277\220\350\241\214", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(TabNcm), QCoreApplication::translate("MainWindow", "NCM", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(TabLan), QCoreApplication::translate("MainWindow", "\350\257\255\350\250\200", nullptr));
     } // retranslateUi
 
 };

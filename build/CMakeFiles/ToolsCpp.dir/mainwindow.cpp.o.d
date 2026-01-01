@@ -1074,4 +1074,15 @@ CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o: \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qtableview.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/QStandardItemModel \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/qstandarditemmodel.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/QStandardItem
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtGui.framework/Headers/QStandardItem \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/QFileDialog \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qfiledialog.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qdir.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qdirlisting.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qfiledevice.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qdatetime.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qcalendar.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qfile.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qfileinfo.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qtimezone.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qdialog.h

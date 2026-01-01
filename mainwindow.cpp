@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 
@@ -12,6 +13,7 @@
 #include <QPushButton>
 #include <QStandardItemModel>
 #include <QStandardItem>
+#include <QFileDialog>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -32,6 +34,7 @@ MainWindow::MainWindow(QWidget *parent)
     }
     ui->LimeView_ncm->setPlaceholderText("请选择文件目录");
     ui->LimeView_ncm->setReadOnly(true);
+    ui->ListShow_ncm->clear();
 
     //base64启动信号
     connect(ui->ActionButton_Base64, &QPushButton::clicked, this, [this](){
@@ -75,8 +78,44 @@ MainWindow::MainWindow(QWidget *parent)
         ui->OutputBox_Haxi->setPlainText(result_T);
     });
 
+    //ncm导入文件夹启动信号
+    connect(ui->InputButton_ncm, &QPushButton::clicked, this, [this](){
+        QString dirPath = QFileDialog::getExistingDirectory(
+            this,
+            tr("选择文件夹"),
+            QDir::homePath(),
+            QFileDialog::ShowDirsOnly | QFileDialog::DontResolveSymlinks
+        );
+        if(!dirPath.isEmpty())
+        {
+            ui->LimeView_ncm->setText(dirPath);
+            QDir dir(dirPath);
+            if(!dir.exists()) return;
+            QStringList filters;
+            filters << "*.ncm";
+            QFileInfoList files = dir.entryInfoList(
+                filters,
+                QDir::Files | QDir::NoSymLinks,
+                QDir::Name
+            );
+            for(const QFileInfo& fi : files)
+            {
+                ui->ListShow_ncm->addItem(fi.fileName());
+            }
+        }
+        else
+        {
+            std::cerr << "错误路径";
+        }
+    });
+
     //ncm启动信号
-    
+    connect(ui->ActionButton_ncm, &QPushButton::clicked, this, [this](){
+        std::string msg;
+        QString dirpath = ui->LimeView_ncm->text();
+        std::string dirPath = dirpath.toStdString();
+        ncm::process_ncm_folder(dirPath, &msg);
+    });
 }
 
 MainWindow::~MainWindow()

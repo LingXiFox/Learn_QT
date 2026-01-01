@@ -121,11 +121,56 @@ CMakeFiles/ToolsCpp.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ToolsCpp.dir/mainwindow.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.cpp" -o CMakeFiles/ToolsCpp.dir/mainwindow.cpp.s
 
+CMakeFiles/ToolsCpp.dir/base64.cpp.o: CMakeFiles/ToolsCpp.dir/flags.make
+CMakeFiles/ToolsCpp.dir/base64.cpp.o: /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.cpp
+CMakeFiles/ToolsCpp.dir/base64.cpp.o: CMakeFiles/ToolsCpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ToolsCpp.dir/base64.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ToolsCpp.dir/base64.cpp.o -MF CMakeFiles/ToolsCpp.dir/base64.cpp.o.d -o CMakeFiles/ToolsCpp.dir/base64.cpp.o -c "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.cpp"
+
+CMakeFiles/ToolsCpp.dir/base64.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ToolsCpp.dir/base64.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.cpp" > CMakeFiles/ToolsCpp.dir/base64.cpp.i
+
+CMakeFiles/ToolsCpp.dir/base64.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ToolsCpp.dir/base64.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/base64.cpp" -o CMakeFiles/ToolsCpp.dir/base64.cpp.s
+
+CMakeFiles/ToolsCpp.dir/ncm.cpp.o: CMakeFiles/ToolsCpp.dir/flags.make
+CMakeFiles/ToolsCpp.dir/ncm.cpp.o: /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp
+CMakeFiles/ToolsCpp.dir/ncm.cpp.o: CMakeFiles/ToolsCpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ToolsCpp.dir/ncm.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ToolsCpp.dir/ncm.cpp.o -MF CMakeFiles/ToolsCpp.dir/ncm.cpp.o.d -o CMakeFiles/ToolsCpp.dir/ncm.cpp.o -c "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp"
+
+CMakeFiles/ToolsCpp.dir/ncm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ToolsCpp.dir/ncm.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp" > CMakeFiles/ToolsCpp.dir/ncm.cpp.i
+
+CMakeFiles/ToolsCpp.dir/ncm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ToolsCpp.dir/ncm.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.cpp" -o CMakeFiles/ToolsCpp.dir/ncm.cpp.s
+
+CMakeFiles/ToolsCpp.dir/haxi.cpp.o: CMakeFiles/ToolsCpp.dir/flags.make
+CMakeFiles/ToolsCpp.dir/haxi.cpp.o: /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp
+CMakeFiles/ToolsCpp.dir/haxi.cpp.o: CMakeFiles/ToolsCpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ToolsCpp.dir/haxi.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ToolsCpp.dir/haxi.cpp.o -MF CMakeFiles/ToolsCpp.dir/haxi.cpp.o.d -o CMakeFiles/ToolsCpp.dir/haxi.cpp.o -c "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp"
+
+CMakeFiles/ToolsCpp.dir/haxi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ToolsCpp.dir/haxi.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp" > CMakeFiles/ToolsCpp.dir/haxi.cpp.i
+
+CMakeFiles/ToolsCpp.dir/haxi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ToolsCpp.dir/haxi.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.cpp" -o CMakeFiles/ToolsCpp.dir/haxi.cpp.s
+
 # Object files for target ToolsCpp
 ToolsCpp_OBJECTS = \
 "CMakeFiles/ToolsCpp.dir/ToolsCpp_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/ToolsCpp.dir/main.cpp.o" \
-"CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o"
+"CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o" \
+"CMakeFiles/ToolsCpp.dir/base64.cpp.o" \
+"CMakeFiles/ToolsCpp.dir/ncm.cpp.o" \
+"CMakeFiles/ToolsCpp.dir/haxi.cpp.o"
 
 # External object files for target ToolsCpp
 ToolsCpp_EXTERNAL_OBJECTS =
@@ -133,12 +178,15 @@ ToolsCpp_EXTERNAL_OBJECTS =
 ToolsCpp.app/Contents/MacOS/ToolsCpp: CMakeFiles/ToolsCpp.dir/ToolsCpp_autogen/mocs_compilation.cpp.o
 ToolsCpp.app/Contents/MacOS/ToolsCpp: CMakeFiles/ToolsCpp.dir/main.cpp.o
 ToolsCpp.app/Contents/MacOS/ToolsCpp: CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o
+ToolsCpp.app/Contents/MacOS/ToolsCpp: CMakeFiles/ToolsCpp.dir/base64.cpp.o
+ToolsCpp.app/Contents/MacOS/ToolsCpp: CMakeFiles/ToolsCpp.dir/ncm.cpp.o
+ToolsCpp.app/Contents/MacOS/ToolsCpp: CMakeFiles/ToolsCpp.dir/haxi.cpp.o
 ToolsCpp.app/Contents/MacOS/ToolsCpp: CMakeFiles/ToolsCpp.dir/build.make
 ToolsCpp.app/Contents/MacOS/ToolsCpp: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
 ToolsCpp.app/Contents/MacOS/ToolsCpp: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 ToolsCpp.app/Contents/MacOS/ToolsCpp: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 ToolsCpp.app/Contents/MacOS/ToolsCpp: CMakeFiles/ToolsCpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ToolsCpp.app/Contents/MacOS/ToolsCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/arm_darwin_generic_mach_o_32bit-Debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ToolsCpp.app/Contents/MacOS/ToolsCpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ToolsCpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

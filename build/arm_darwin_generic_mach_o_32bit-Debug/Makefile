@@ -225,6 +225,54 @@ ToolsCpp_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/ToolsCpp_autogen/mocs_compilation.cpp.s
 .PHONY : ToolsCpp_autogen/mocs_compilation.cpp.s
 
+base64.o: base64.cpp.o
+.PHONY : base64.o
+
+# target to build an object file
+base64.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/base64.cpp.o
+.PHONY : base64.cpp.o
+
+base64.i: base64.cpp.i
+.PHONY : base64.i
+
+# target to preprocess a source file
+base64.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/base64.cpp.i
+.PHONY : base64.cpp.i
+
+base64.s: base64.cpp.s
+.PHONY : base64.s
+
+# target to generate assembly for a file
+base64.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/base64.cpp.s
+.PHONY : base64.cpp.s
+
+haxi.o: haxi.cpp.o
+.PHONY : haxi.o
+
+# target to build an object file
+haxi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/haxi.cpp.o
+.PHONY : haxi.cpp.o
+
+haxi.i: haxi.cpp.i
+.PHONY : haxi.i
+
+# target to preprocess a source file
+haxi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/haxi.cpp.i
+.PHONY : haxi.cpp.i
+
+haxi.s: haxi.cpp.s
+.PHONY : haxi.s
+
+# target to generate assembly for a file
+haxi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/haxi.cpp.s
+.PHONY : haxi.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -273,6 +321,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+ncm.o: ncm.cpp.o
+.PHONY : ncm.o
+
+# target to build an object file
+ncm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/ncm.cpp.o
+.PHONY : ncm.cpp.o
+
+ncm.i: ncm.cpp.i
+.PHONY : ncm.i
+
+# target to preprocess a source file
+ncm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/ncm.cpp.i
+.PHONY : ncm.cpp.i
+
+ncm.s: ncm.cpp.s
+.PHONY : ncm.s
+
+# target to generate assembly for a file
+ncm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/ncm.cpp.s
+.PHONY : ncm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -291,12 +363,21 @@ help:
 	@echo "... ToolsCpp_autogen/mocs_compilation.o"
 	@echo "... ToolsCpp_autogen/mocs_compilation.i"
 	@echo "... ToolsCpp_autogen/mocs_compilation.s"
+	@echo "... base64.o"
+	@echo "... base64.i"
+	@echo "... base64.s"
+	@echo "... haxi.o"
+	@echo "... haxi.i"
+	@echo "... haxi.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... ncm.o"
+	@echo "... ncm.i"
+	@echo "... ncm.s"
 .PHONY : help
 
 

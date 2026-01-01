@@ -84,8 +84,8 @@ clean: CMakeFiles/ToolsCpp_autogen.dir/clean
 # Target rules for target CMakeFiles/ToolsCpp.dir
 
 # All Build rule for target.
-CMakeFiles/ToolsCpp.dir/all: CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/all
 CMakeFiles/ToolsCpp.dir/all: CMakeFiles/ToolsCpp_autogen.dir/all
+CMakeFiles/ToolsCpp.dir/all: CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target ToolsCpp"
@@ -103,8 +103,8 @@ ToolsCpp: CMakeFiles/ToolsCpp.dir/rule
 .PHONY : ToolsCpp
 
 # codegen rule for target.
-CMakeFiles/ToolsCpp.dir/codegen: CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/all
 CMakeFiles/ToolsCpp.dir/codegen: CMakeFiles/ToolsCpp_autogen.dir/all
+CMakeFiles/ToolsCpp.dir/codegen: CMakeFiles/ToolsCpp_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToolsCpp.dir/build.make CMakeFiles/ToolsCpp.dir/codegen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target ToolsCpp"
 .PHONY : CMakeFiles/ToolsCpp.dir/codegen
