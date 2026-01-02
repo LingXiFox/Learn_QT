@@ -5613,6 +5613,10 @@ CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o
  /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.h
  /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.h
  /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.h
+ /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QFile
+ /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QFileInfo
+ /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QString
+ /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QTextStream
  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QVariant
  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/q17memory.h
  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/q20functional.h

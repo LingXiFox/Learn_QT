@@ -1085,4 +1085,8 @@ CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o: \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qfile.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qfileinfo.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qtimezone.h \
-  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qdialog.h
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtWidgets.framework/Headers/qdialog.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QFile \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QTextStream \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QFileInfo

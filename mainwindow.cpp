@@ -1,19 +1,55 @@
+//系统库
 #include <iostream>
 #include <string>
-
+//窗口头文件
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-
+//自定义库
 #include "base64.h"
 #include "haxi.h"
 #include "ncm.h"
-
+//Qt库
 #include <QWidget>
 #include <QTableWidget>
 #include <QPushButton>
 #include <QStandardItemModel>
 #include <QStandardItem>
 #include <QFileDialog>
+#include <QFileDialog>
+#include <QFile>
+#include <QTextStream>
+#include <QString>
+#include <QFileInfo>
+
+QPair<QString, QString> importTextFile(QWidget *parent)
+{
+    QString filePath = QFileDialog::getOpenFileName(
+        parent,
+        "选择文本文件",
+        QDir::homePath(),
+        "Text Files (*.txt *.md *.log);;ALl Files (*.*)"
+    );
+    if(filePath.isEmpty()) return {};
+    QFile file(filePath);
+    if(!file.open(QIODevice::ReadOnly | QIODevice::Text)) return {};
+    QTextStream in(&file);
+    in.setEncoding(QStringConverter::Utf8);
+    QString content = in.readAll();
+    return {filePath, content};
+}
+
+bool saveTextNextToSource(const QString &sourcePath, const QString &text, const QString &newFileName)
+{
+    QFileInfo info(sourcePath);
+    if(!info.exists()) return false;
+    QString targetPath = info.absolutePath() + "/" + newFileName;
+    QFile file(targetPath);
+    if(!file.open(QIODevice::WriteOnly |QIODevice::Text)) return false;
+    QTextStream out(&file);
+    out.setEncoding(QStringConverter::Utf8);
+    out << text;
+    return true;
+}
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -35,8 +71,12 @@ MainWindow::MainWindow(QWidget *parent)
     ui->LimeView_ncm->setPlaceholderText("请选择文件目录");
     ui->LimeView_ncm->setReadOnly(true);
     ui->ListShow_ncm->clear();
+    ui->Line_File_Input_Base64->setReadOnly(true);
+    ui->Line_File_Output_Base64->setReadOnly(true);
+    ui->Show_File_Input_Base64->setReadOnly(true);
+    ui->Show_File_output_Base64->setReadOnly(true);
 
-    //base64启动信号
+    //base64文本输入启动信号
     connect(ui->ActionButton_Base64, &QPushButton::clicked, this, [this](){
         QString CurrentChoice = ui->ChoiceMode_Base64->currentText();
         QString inputname_Base64 = ui->InputBox_Base64->toPlainText();
@@ -54,6 +94,33 @@ MainWindow::MainWindow(QWidget *parent)
             QString decodeString = QString::fromUtf8(decodestring.c_str());
             ui->OutputBox_Base64->setPlainText(decodeString);
         }
+    });
+
+    //base64文件输入启动信号
+    connect(ui->Button_File_Input, &QPushButton::clicked, this, [this](){
+        auto Input_File_Text_Base64 = importTextFile(this);
+        QString Input_File_Text_Base64_Path = Input_File_Text_Base64.first;
+        QString Input_File_Text_Base64_Content = Input_File_Text_Base64.second;
+        ui->Line_File_Input_Base64->setText(Input_File_Text_Base64_Path);
+        ui->Show_File_Input_Base64->setPlainText(Input_File_Text_Base64_Content);
+    });
+
+    //base64文件启动信号
+    connect(ui->Button_File_Action_Base64, &QPushButton::clicked, this, [this](){
+        QString Input_File_Text = ui->Show_File_Input_Base64->toPlainText();
+        std::string Input_File_Text_Std = Input_File_Text.toStdString();
+        std::string encoded_File_Text = base64_encode(reinterpret_cast<const unsigned char*>(Input_File_Text_Std.data()), Input_File_Text_Std.size());
+        QString encodeString_File = QString::fromUtf8(encoded_File_Text.c_str());
+        ui->Show_File_output_Base64->setPlainText(encodeString_File);
+        QString CurrentPath = ui->Line_File_Input_Base64->text();
+        saveTextNextToSource(
+            CurrentPath,
+            encodeString_File,
+            "result.txt"
+        );
+        QFileInfo info(CurrentPath);
+        QString diePath_C = info.absolutePath();
+        ui->Line_File_Output_Base64->setText(diePath_C);
     });
 
     //Haxi启动信号

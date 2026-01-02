@@ -5607,6 +5607,10 @@ CMakeFiles/ToolsCpp.dir/mainwindow.cpp.o: /Users/lingxifox/Documents/VSCode/C&C+
   /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/haxi.h \
   /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/mainwindow.h \
   /Users/lingxifox/Documents/VSCode/C&C++/ToolsCpp/ncm.h \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QFile \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QFileInfo \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QString \
+  /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QTextStream \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QVariant \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/q17memory.h \
   /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/q20functional.h \
@@ -6733,6 +6737,8 @@ CMakeFiles/ToolsCpp.dir/ncm.cpp.o: /Users/lingxifox/Documents/VSCode/C&C++/Tools
 
 /opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/qabstractitemmodel.h:
 
+/opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QFile:
+
 ToolsCpp_autogen/include/ui_mainwindow.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream:
@@ -7432,6 +7438,8 @@ ToolsCpp_autogen/EWIEGA46WW/moc_mainwindow.cpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
+
+/opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QString:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h:
 
@@ -10939,6 +10947,8 @@ ToolsCpp_autogen/moc_predefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__new/exceptions.h:
 
+/opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QTextStream:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__bit_reference:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX26.2.sdk/usr/include/c++/v1/__bit/popcount.h:
@@ -11014,6 +11024,8 @@ ToolsCpp_autogen/moc_predefs.h:
 /opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
 
 /opt/homebrew/Cellar/qt/6.9.3/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake:
+
+/opt/homebrew/Cellar/qt/6.9.3/lib/QtCore.framework/Headers/QFileInfo:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h:
 

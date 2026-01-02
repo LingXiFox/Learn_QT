@@ -130,6 +130,7 @@ public:
         Button_File_Input = new QPushButton(Tab_File);
         Button_File_Input->setObjectName("Button_File_Input");
         Button_File_Input->setGeometry(QRect(210, 380, 131, 51));
+        Button_File_Input->setStyleSheet(QString::fromUtf8("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 64, 255, 255), stop:1 rgba(255, 255, 255, 255));"));
         Button_File_Action_Base64 = new QPushButton(Tab_File);
         Button_File_Action_Base64->setObjectName("Button_File_Action_Base64");
         Button_File_Action_Base64->setGeometry(QRect(380, 380, 131, 51));
